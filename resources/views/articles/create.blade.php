@@ -11,7 +11,7 @@
                             <span class="label-text">Title</span>
 
                         </label>
-                        <input name="title" type="text" placeholder="Article Title" class="input input-bordered w-full @error('title') input-error @enderror"/>
+                        <input name="title" type="text" placeholder="Lisa uus burx" class="input input-bordered w-full @error('title') input-error @enderror"/>
                         @error('title')
                             <label class="label">
                                 <span class="label-text-alt text-error">{{$message}}</span>
@@ -25,7 +25,7 @@
                             <span class="label-text">Cost</span>
 
                         </label>
-                        <input name="cost" type="number" placeholder="Article Title" class="input input-bordered w-full @error('cost') input-error @enderror"/>
+                        <input name="cost" type="number" placeholder="Hind" class="input input-bordered w-full @error('cost') input-error @enderror"/>
                         @error('cost')
                             <label class="label">
                                 <span class="label-text-alt text-error">{{$message}}</span>
